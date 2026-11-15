@@ -1,0 +1,18 @@
+[Unit]
+Description=Auto Telegram Emoji
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/Auto-Telegram-Emoji
+ExecStart=/opt/Auto-Telegram-Emoji/.venv/bin/python -m auto_telegram_emoji
+Restart=on-failure
+RestartSec=10
+User=emoji
+Group=emoji
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

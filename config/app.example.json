@@ -1,0 +1,11 @@
+{
+  "enabled": true,
+  "max_active": 10,
+  "lots": {
+    "!gemoji_1": {
+      "marker": "!gemoji_1",
+      "pack_size": 1,
+      "seller_price_rub": "1.00"
+    }
+  }
+}

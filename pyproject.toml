@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "auto-telegram-emoji"
+version = "1.0.0"
+authors = [{name = "justmeth"}]
+description = "Standalone personalized Telegram packs for FunPay"
+requires-python = ">=3.11"
+license = "GPL-3.0-only"
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools.packages.find]
+include = ["auto_telegram_emoji*", "FunPayAPI*"]
+
+[project.urls]
+Source = "https://github.com/paverses/Auto-Telegram-Emoji"
+Channel = "https://t.me/g_plugins"
+Contact = "https://t.me/justmeth"
