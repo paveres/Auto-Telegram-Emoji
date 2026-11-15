@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "auto-telegram-emoji"
-version = "1.0.0"
+version = "1.0.1"
 authors = [{name = "justmeth"}]
 description = "Standalone personalized Telegram packs for FunPay"
 requires-python = ">=3.11"
