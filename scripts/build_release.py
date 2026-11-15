@@ -10,7 +10,7 @@ def main():
     result = check(root)
     dist = root / 'dist'
     dist.mkdir(exist_ok=True)
-    output = dist / 'Auto-Telegram-Emoji-1.0.1.zip'
+    output = dist / 'Auto-Telegram-Emoji-1.0.zip'
     names = ['auto_telegram_emoji', 'FunPayAPI', 'assets', 'docs', 'third_party', 'scripts', 'tests']
     files = []
     for name in names:
