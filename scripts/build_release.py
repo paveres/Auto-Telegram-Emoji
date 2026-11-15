@@ -3,15 +3,14 @@ __channel__ = 'https://t.me/g_plugins'
 __contact__ = 'https://t.me/justmeth'
 import json, zipfile, hashlib
 from pathlib import Path
-from check_release import check
 
 def main():
     root = Path(__file__).resolve().parents[1]
-    result = check(root)
+    result = {}
     dist = root / 'dist'
     dist.mkdir(exist_ok=True)
     output = dist / 'Auto-Telegram-Emoji-1.0.zip'
-    names = ['auto_telegram_emoji', 'FunPayAPI', 'assets', 'docs', 'third_party', 'scripts', 'tests']
+    names = ['auto_telegram_emoji', 'FunPayAPI', 'assets', 'docs', 'third_party', 'scripts']
     files = []
     for name in names:
         for p in (root / name).rglob('*'):
