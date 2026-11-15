@@ -22,7 +22,7 @@ def import_assets(source, destination):
         if not files:
             continue
         rows[collection] = []
-        for p in files:
+        for p in files[:25]:
             raw = p.read_bytes()
             if len(raw) > 65536:
                 raise ValueError('Слишком большой TGS: ' + p.name)
@@ -34,7 +34,7 @@ def import_assets(source, destination):
 
             def editable(node):
                 if isinstance(node, dict):
-                    return str(node.get('nm', '')).startswith('tier_glyph:') or any((editable(v) for v in node.values()))
+                    return str(node.get('nm', '')).startswith('emoji_glyph:') or any((editable(v) for v in node.values()))
                 return isinstance(node, list) and any((editable(v) for v in node))
             if not editable(data):
                 raise ValueError('В шаблоне нет заменяемой надписи: ' + p.name)

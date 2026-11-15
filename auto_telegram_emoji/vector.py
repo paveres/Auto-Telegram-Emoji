@@ -105,7 +105,7 @@ def transform(source, text, font_folder, gradient=0, color=0, style=None):
         if isinstance(x, dict):
             items = x.get('it')
             if isinstance(items, list):
-                old = [v for v in items if v.get('nm', '').startswith('tier_glyph:')]
+                old = [v for v in items if v.get('nm', '').startswith('emoji_glyph:')]
                 if old:
                     if any((v.get('ty') != 'sh' or v.get('ks', {}).get('a') != 0 for v in old)):
                         raise ValueError('Неподдерживаемая анимация букв')
@@ -129,7 +129,7 @@ def transform(source, text, font_folder, gradient=0, color=0, style=None):
                     result = []
                     inserted = False
                     for v in items:
-                        if v.get('nm', '').startswith('tier_glyph:'):
+                        if v.get('nm', '').startswith('emoji_glyph:'):
                             if not inserted:
                                 result.extend(shapes)
                                 inserted = True

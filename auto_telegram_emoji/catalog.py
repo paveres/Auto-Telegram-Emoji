@@ -11,6 +11,7 @@ class Catalog:
         private = Path(root) / 'data/assets'
         self.base = private if (private / 'catalog.json').is_file() else Path(root) / 'assets'
         self.data = json.loads((self.base / 'catalog.json').read_text(encoding='utf-8'))
+        self.data = {key: rows[:25] for key, rows in self.data.items()}
 
     def collections(self):
         return list(self.data)
