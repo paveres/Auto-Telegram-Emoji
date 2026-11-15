@@ -48,7 +48,7 @@ def main():
     if not lots:
         raise ValueError('Добавьте хотя бы один тариф')
     config = {'enabled': True, 'max_active': 10, 'lots': lots}
-    template = ask('Папка с вашими коллекциями TGS. Enter — использовать демо')
+    template = ask('Папка с вашими коллекциями TGS. Enter — использовать встроенные коллекции')
     if template:
         from auto_telegram_emoji.import_assets import import_assets
         destination = root / 'data/assets'
@@ -59,7 +59,7 @@ def main():
     catalog = Catalog(root)
     available = sum((len(catalog.items(c)) for c in catalog.collections()))
     if max((lot['pack_size'] for lot in lots.values())) > available:
-        raise ValueError('Для тарифов недостаточно шаблонов. В демоколлекции 3 варианта; импортируйте свои коллекции.')
+        raise ValueError('Для тарифов недостаточно шаблонов. Добавьте коллекции или уменьшите размер набора.')
     config_path.parent.mkdir(exist_ok=True)
     if env.exists():
         env.replace(env.with_suffix('.env.backup'))
