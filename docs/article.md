@@ -97,4 +97,4 @@ python3.11 -m venv .venv
 
 Канал: https://t.me/g_plugins
 
-Личные сообщения: https://t.me/justmeth
+Личные сообщения: https://t.me/paveres

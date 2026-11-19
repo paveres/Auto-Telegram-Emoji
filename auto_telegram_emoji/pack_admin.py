@@ -1,6 +1,6 @@
-__author__ = '@justmeth'
+__author__ = '@paveres'
 __channel__ = 'https://t.me/g_plugins'
-__contact__ = 'https://t.me/justmeth'
+__contact__ = 'https://t.me/paveres'
 import html, json, logging, re, sqlite3, time
 from pathlib import Path
 from .packs import Telegram, PackPending, PackError

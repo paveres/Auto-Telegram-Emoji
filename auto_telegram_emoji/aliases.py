@@ -1,6 +1,6 @@
-__author__ = '@justmeth'
+__author__ = '@paveres'
 __channel__ = 'https://t.me/g_plugins'
-__contact__ = 'https://t.me/justmeth'
+__contact__ = 'https://t.me/paveres'
 import re
 YES = {'+', 'да', 'д', 'ага', 'угу', 'ок', 'окей', 'подтверждаю', 'подтвердить', 'согласен', 'дап', 'yes', 'y', 'yeah', 'yep', 'ok', 'okay'}
 NO = {'-', '−', 'нет', 'н', 'не', 'неа', 'ноу', 'отказываюсь', 'no', 'n', 'nope', 'nah'}

@@ -1,6 +1,6 @@
-__author__ = '@justmeth'
+__author__ = '@paveres'
 __channel__ = 'https://t.me/g_plugins'
-__contact__ = 'https://t.me/justmeth'
+__contact__ = 'https://t.me/paveres'
 import gzip, json, io, hashlib, subprocess, zipfile, math, os, sys, secrets, threading
 _NATIVE_SLOT = threading.BoundedSemaphore(1)
 from pathlib import Path

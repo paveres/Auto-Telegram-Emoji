@@ -1,6 +1,6 @@
-__author__ = '@justmeth'
+__author__ = '@paveres'
 __channel__ = 'https://t.me/g_plugins'
-__contact__ = 'https://t.me/justmeth'
+__contact__ = 'https://t.me/paveres'
 import json
 from pathlib import Path
 NAMES = {'characters': 'Персонажи', 'classic': 'Классика', 'finance': 'Финансы', 'gift': 'Подарки', 'love': 'Любовь', 'one': 'Ван', 'other': 'Разное'}

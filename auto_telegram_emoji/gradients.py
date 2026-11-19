@@ -1,6 +1,6 @@
-__author__ = '@justmeth'
+__author__ = '@paveres'
 __channel__ = 'https://t.me/g_plugins'
-__contact__ = 'https://t.me/justmeth'
+__contact__ = 'https://t.me/paveres'
 import math, copy
 THEMES = [('Чёрно-красный', '#ff2d3d', '#ffb3b8'), ('Чёрно-жёлтый', '#ffd600', '#fff7ad'), ('Чёрно-золотой', '#ffc233', '#fff3c4'), ('Чёрно-синий', '#2f8bff', '#c4e0ff'), ('Чёрно-зелёный', '#22e07a', '#c6ffe0'), ('Чёрно-фиолетовый', '#a85bff', '#ecd9ff'), ('Чёрно-розовый', '#ff4fa3', '#ffd0e8'), ('Чёрно-бирюзовый', '#22d3ee', '#d0f7ff'), ('Чёрно-серебряный', '#c9ccd3', '#ffffff')]
 

@@ -1,6 +1,6 @@
-__author__ = '@justmeth'
+__author__ = '@paveres'
 __channel__ = 'https://t.me/g_plugins'
-__contact__ = 'https://t.me/justmeth'
+__contact__ = 'https://t.me/paveres'
 from .links import base_url
 'Buyer commands outside an active editing step; all replies use the durable outbox.'
 import hashlib, secrets, time

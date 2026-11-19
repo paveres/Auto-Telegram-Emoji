@@ -1,6 +1,6 @@
-__author__ = '@justmeth'
+__author__ = '@paveres'
 __channel__ = 'https://t.me/g_plugins'
-__contact__ = 'https://t.me/justmeth'
+__contact__ = 'https://t.me/paveres'
 from .catalog import NAMES
 STAGES = {'intro_pending': 'подготовка коллекций', 'catalog_pending': 'отправка вариантов', 'collection': 'выбор коллекции', 'select': 'выбор эмодзи', 'selection_action': 'добавление из коллекций', 'text_pick': 'выбор эмодзи для текста', 'text_value': 'ввод текста эмодзи', 'confirm': 'подтверждение вариантов', 'nick': 'ввод ника', 'nick_edit': 'изменение ника', 'preview': 'проверка результата', 'color': 'выбор цвета', 'gradient': 'выбор градиента', 'style_confirm': 'примерка оформления', 'pack_type': 'выбор типа пака', 'generating': 'создание пака', 'delivered': 'файлы готовы'}
 GRADIENT_NAMES = ['Белый → голубой', 'Светло-голубой → синий', 'Белый → розовый', 'Золотой → оранжевый', 'Жёлтый → красный', 'Мятный → зелёный', 'Сиреневый → фиолетовый', 'Белый → серый', 'Без градиента']

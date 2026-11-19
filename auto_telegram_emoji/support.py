@@ -1,6 +1,6 @@
-__author__ = '@justmeth'
+__author__ = '@paveres'
 __channel__ = 'https://t.me/g_plugins'
-__contact__ = 'https://t.me/justmeth'
+__contact__ = 'https://t.me/paveres'
 import hashlib, time, math
 from .aliases import normalize
 REASONS = ['Не нравится текст или есть опечатка', 'Расположение или размер текста', 'Цвет, градиент или шрифт', 'Не скачивается архив или не открываются файлы', 'Результат не соответствует выбранным вариантам', 'Другое']

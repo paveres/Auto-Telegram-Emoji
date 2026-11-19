@@ -62,7 +62,7 @@ python3.11 -m venv .venv
 
 ## Разработчик
 
-Контакт: https://t.me/justmeth
+Контакт: https://t.me/paveres
 
 Канал: https://t.me/g_plugins
 
@@ -88,4 +88,4 @@ python3.11 -m venv .venv
 
 Канал: https://t.me/g_plugins
 
-Связь: https://t.me/justmeth
+Связь: https://t.me/paveres
